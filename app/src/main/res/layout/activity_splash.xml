@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ybon.formylove.SplashActivity">
+
+    <com.gjiazhe.panoramaimageview.PanoramaImageView
+        android:id="@+id/panorama_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/horizontal1" />
+    <com.hrules.trendtextview.TrendTextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:id="@+id/trendTextView"
+        android:textSize="30sp"
+        android:textColor="#f00"
+        android:layout_height="wrap_content"/>
+    <com.spark.submitbutton.SubmitButton
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="开始吧 菇凉"
+        android:id="@+id/submit_button"
+        android:textColor="@color/gray"
+        app:sub_btn_background="#fff"
+        app:sub_btn_duration="3000"
+        app:sub_btn_line_color="#0f0"
+        app:sub_btn_ripple_color="#0f0"
+        app:sub_btn_tick_color="#fff"/>
+
+</FrameLayout>
